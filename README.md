@@ -14,9 +14,9 @@ _tutorial for documentation with Sphinx_
 _command lines to get Sphinx_
 ### Install Sphinx #
 
- apt-get install python-sphinx
- sudo easy_install -U Sphinx
- wget "https://pypi.python.org/pypi/Sphinx/1.2.3"
+...apt-get install python-sphinx..
+...sudo easy_install -U Sphinx..
+...wget "https://pypi.python.org/pypi/Sphinx/1.2.3"..
 
 ### starting sphinx #
 
@@ -24,8 +24,8 @@ sphinx-quickstart
 
 ### running the build #
 
-...make html
-...make latexpdf
+...make html..
+...make latexpdf..
 
 =====================================================
 _official documentation_
