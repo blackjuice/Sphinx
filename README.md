@@ -11,7 +11,8 @@ _tutorial for documentation with Sphinx_
 * [on GitHub](https://github.com/brandon-rhodes/sphinx-tutorial)
 
 =====================================================
-_command lines to get Sphinx_
+##command lines to get Sphinx
+
 ### Install Sphinx #
 
 apt-get install python-sphinx
