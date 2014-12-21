@@ -1,7 +1,10 @@
 # SPHINX _readme_
 
+=====================================================
+
 _Official Sphinx_
 * [sphinx website](http://sphinx-doc.org/latest/index.html)
+
 =====================================================
 
 _tutorial for documentation with Sphinx_
