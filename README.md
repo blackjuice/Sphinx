@@ -13,7 +13,7 @@ _tutorial for documentation with Sphinx_
 =====================================================
 _command lines to get Sphinx_
 ### Install Sphinx #
-
+* commands
 ...apt-get install python-sphinx..
 ...sudo easy_install -U Sphinx..
 ...wget "https://pypi.python.org/pypi/Sphinx/1.2.3"..
