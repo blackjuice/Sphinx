@@ -14,9 +14,9 @@ _tutorial for documentation with Sphinx_
 _command lines to get Sphinx_
 ### Install Sphinx #
 
-...apt-get install python-sphinx
-...sudo easy_install -U Sphinx
-...wget "https://pypi.python.org/pypi/Sphinx/1.2.3"
+ apt-get install python-sphinx
+ sudo easy_install -U Sphinx
+ wget "https://pypi.python.org/pypi/Sphinx/1.2.3"
 
 ### starting sphinx #
 
@@ -30,3 +30,9 @@ sphinx-quickstart
 =====================================================
 _official documentation_
 [Sphinx documentation contents](http://sphinx-doc.org/latest/contents.html)
+
+=====================================================
+_Markdown Cheatsheet_
+[link to GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+=====================================================
