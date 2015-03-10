@@ -9,7 +9,15 @@ _tutorial for documentation with Sphinx_
 =====================================================
 ##Getting [Python](https://www.python.org/)
 
+wget the recent Python version
+
 `wget "https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tar.xz"`
+
+or
+
+`wget "https://www.python.org/ftp/python/3.5.0/Python-3.5.0a2.tar.xz"`
+
+then
 
 `tar xf Python-3.4.2.tar.xz`
 
