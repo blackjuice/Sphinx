@@ -9,37 +9,29 @@ _tutorial for documentation with Sphinx_
 =====================================================
 ##Getting [Python](https://www.python.org/)
 
-wget "https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tar.xz"
+`wget "https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tar.xz"`
 
-tar xf Python-3.4.2.tar.xz
+`tar xf Python-3.4.2.tar.xz`
 
-./configure
+`cd Python && ./configure`
 
-make
+`make && make test && sudo make install`
 
-make test
-
-sudo make install
-
-python setup.py install
+`python setup.py install`
 
 
 ##command lines to get Sphinx
 
 ### Install Sphinx #
 
-apt-get install python-sphinx
-
-sudo easy_install -U Sphinx
-
-wget "https://pypi.python.org/pypi/Sphinx/1.3b2"
+`apt-get install python-sphinx && sudo easy_install -U Sphinx`
 
 ### starting sphinx #
 
-sphinx-quickstart
+`sphinx-quickstart`
 
 ### running the build #
 
-make html
+`make html`
 
-make latexpdf
+`make latexpdf`
