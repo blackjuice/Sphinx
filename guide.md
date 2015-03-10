@@ -28,6 +28,24 @@ then
 `python setup.py install`
 
 
+------------------------
+
+### errors encountered:
+
+"Ignoring ensurepip failure: pip 1.5.4 requires SSL/TLS"
+
+### to solve this error:
+
+pip has to be copied into target folder, so the --with-ensurepip=install is important:
+
+`sudo apt-get install libssl-dev openssl `
+
+`./configure --prefix=/home/user/sources/compiled/python3.4_dev --with-ensurepip=install`
+
+------------------------
+
+
+
 ##command lines to get Sphinx
 
 ### Install Sphinx #
