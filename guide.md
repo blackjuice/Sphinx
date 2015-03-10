@@ -32,7 +32,7 @@ then
 
 ### Install Sphinx #
 
-`apt-get install python-sphinx && sudo easy_install -U Sphinx`
+`sudo apt-get install python-sphinx && sudo easy_install -U Sphinx`
 
 ### starting sphinx #
 
