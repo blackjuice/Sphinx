@@ -25,6 +25,8 @@ then
 
 `make && make test && sudo make install`
 
+this line might not be necessary
+
 `python setup.py install`
 
 
