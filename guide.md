@@ -34,7 +34,7 @@ then
 
 "Ignoring ensurepip failure: pip 1.5.4 requires SSL/TLS"
 
-### to solve this error [source](http://stackoverflow.com/questions/22592686/compiling-python-3-4-is-not-copying-pip):
+### to solve this error [(source)](http://stackoverflow.com/questions/22592686/compiling-python-3-4-is-not-copying-pip):
 
 pip has to be copied into target folder, so the --with-ensurepip=install is important:
 
