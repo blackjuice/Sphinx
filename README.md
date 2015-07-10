@@ -15,4 +15,3 @@
 
 ##useful docs searching website
 [Create, host, and browse documentation](https://readthedocs.org/)
-
