@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>api model &mdash; sectorSigma 3.7.3 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="sectorSigma 3.7.3 documentation" href="index.html"/>
+        <link rel="prev" title="project" href="source/project1.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="fa fa-home"> sectorSigma</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="source/project1.html">project</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">api model</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">sectorSigma</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>api model</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/api.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="api-model">
+<h1>api model<a class="headerlink" href="#api-model" title="Permalink to this headline">¶</a></h1>
+<p>Hence here the automodule.</p>
+<span class="target" id="module-module"></span><p>This module illustrates how to write your docstring in OpenAlea
+and other projects related to OpenAlea.</p>
+<dl class="class">
+<dt id="module.MainClass1">
+<em class="property">class </em><code class="descclassname">module.</code><code class="descname">MainClass1</code><a class="reference internal" href="_modules/module.html#MainClass1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#module.MainClass1" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class docstring shows how to use sphinx and rst syntax</p>
+<p>The first line is brief explanation, which may be completed with 
+a longer one. For instance to discuss about its methods. The only
+method here is <a class="reference internal" href="#module.MainClass1.function1" title="module.MainClass1.function1"><code class="xref py py-func docutils literal"><span class="pre">function1()</span></code></a>&#8216;s. The main idea is to document
+the class and methods&#8217;s arguments with</p>
+<ul>
+<li><p class="first"><strong>parameters</strong>, <strong>types</strong>, <strong>return</strong> and <strong>return types</strong>:</p>
+<div class="highlight-python"><div class="highlight"><pre>:param arg1: description
+:param arg2: description
+:type arg1: type description
+:type arg1: type description
+:return: return description
+:rtype: the return type description
+</pre></div>
+</div>
+</li>
+<li><p class="first">and to provide sections such as <strong>Example</strong> using the double commas syntax:</p>
+<div class="highlight-python"><div class="highlight"><pre>:Example:
+
+followed by a blank line !
+</pre></div>
+</div>
+<p>which appears as follow:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<p>followed by a blank line</p>
+</li>
+<li><p class="first">Finally special sections such as <strong>See Also</strong>, <strong>Warnings</strong>, <strong>Notes</strong>
+use the sphinx syntax (<em>paragraph directives</em>):</p>
+<div class="highlight-python"><div class="highlight"><pre>.. seealso:: blabla
+.. warnings also:: blabla
+.. note:: blabla
+.. todo:: blabla
+</pre></div>
+</div>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<dl class="last docutils">
+<dt>There are many other Info fields but they may be redundant:</dt>
+<dd><ul class="first last simple">
+<li>param, parameter, arg, argument, key, keyword: Description of a
+parameter.</li>
+<li>type: Type of a parameter.</li>
+<li>raises, raise, except, exception: That (and when) a specific
+exception is raised.</li>
+<li>var, ivar, cvar: Description of a variable.</li>
+<li>returns, return: Description of the return value.</li>
+<li>rtype: Return type.</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">There are many other directives such as versionadded, versionchanged,
+rubric, centered, ... See the sphinx documentation for more details.</p>
+</div>
+<p>Here below is the results of the <a class="reference internal" href="#module.MainClass1.function1" title="module.MainClass1.function1"><code class="xref py py-func docutils literal"><span class="pre">function1()</span></code></a> docstring.</p>
+<dl class="method">
+<dt id="module.MainClass1.function1">
+<code class="descname">function1</code><span class="sig-paren">(</span><em>arg1</em>, <em>arg2</em>, <em>arg3</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/module.html#MainClass1.function1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#module.MainClass1.function1" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns (arg1 / arg2) + arg3</p>
+<p>This is a longer explanation, which may include math with latex syntax
+<span class="math">\(\alpha\)</span>.
+Then, you need to provide optional subsection in this order (just to be
+consistent and have a uniform documentation. Nothing prevent you to
+switch the order):</p>
+<blockquote>
+<div><ul class="simple">
+<li>parameters using <code class="docutils literal"><span class="pre">:param</span> <span class="pre">&lt;name&gt;:</span> <span class="pre">&lt;description&gt;</span></code></li>
+<li>type of the parameters <code class="docutils literal"><span class="pre">:type</span> <span class="pre">&lt;name&gt;:</span> <span class="pre">&lt;description&gt;</span></code></li>
+<li>returns using <code class="docutils literal"><span class="pre">:returns:</span> <span class="pre">&lt;description&gt;</span></code></li>
+<li>examples (doctest)</li>
+<li>seealso using <code class="docutils literal"><span class="pre">..</span> <span class="pre">seealso::</span> <span class="pre">text</span></code></li>
+<li>notes using <code class="docutils literal"><span class="pre">..</span> <span class="pre">note::</span> <span class="pre">text</span></code></li>
+<li>warning using <code class="docutils literal"><span class="pre">..</span> <span class="pre">warning::</span> <span class="pre">text</span></code></li>
+<li>todo <code class="docutils literal"><span class="pre">..</span> <span class="pre">todo::</span> <span class="pre">text</span></code></li>
+</ul>
+</div></blockquote>
+<dl class="docutils">
+<dt><strong>Advantages</strong>:</dt>
+<dd><ul class="first last simple">
+<li>Uses sphinx markups, which will certainly be improved in future
+version</li>
+<li>Nice HTML output with the See Also, Note, Warnings directives</li>
+</ul>
+</dd>
+<dt><strong>Drawbacks</strong>:</dt>
+<dd><ul class="first last simple">
+<li>Just looking at the docstring, the parameter, type and  return
+sections do not appear nicely</li>
+</ul>
+</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg1</strong> (<em>int, float,...</em>) &#8211; the first value</li>
+<li><strong>arg2</strong> (<em>int, float,...</em>) &#8211; the first value</li>
+<li><strong>arg3</strong> (<em>int, float,...</em>) &#8211; the first value</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">arg1/arg2 +arg3</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">int, float</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">template</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">template</span><span class="o">.</span><span class="n">MainClass1</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="o">.</span><span class="n">function1</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">2</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">can be useful to emphasize
+important feature</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><code class="xref py py-class docutils literal"><span class="pre">MainClass2</span></code></p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">arg2 must be non-zero.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="source/project1.html" class="btn btn-neutral" title="project"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Lucas Sung Jun Hong.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'3.7.3',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
